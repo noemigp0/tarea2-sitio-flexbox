@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    background: #bfe9f0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 90%; 
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #020d20;
+    padding: 0 16px;
+    color: white; /*Cambia el color de la letra*/
+    font-family: "Roboto", sans-serif;    
+    justify-content: center;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

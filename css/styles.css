@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    background: #bfe9f0;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo-helado {
+    width: 80px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 90%; 
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #020d20;
+    padding: 0 16px;
+}
+
+ header nav {
+    width: 90%;
+} 
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;    
+}
+.navLink a{
+    padding: 10px;
+    text-decoration: none;/*Quita subrayado a las opciones*/
+    color: white; /*Cambia el color de la letra*/
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none; /*Quita los puntos a la lista*/
+}
+
+
+
+/* header {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    align-items: center;
+    
+} */
+.main {
+    /* padding: 10px;
+    flex: 3; */
+
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    /* margin: 20px auto; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px;
+    flex: 3;
+}
+/* display: flex;
+align-items: center;
+width: 90%; 
+max-width: 1200px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+background-color: #020d20;
+padding: 0 16px; */
+/* .main .articlesContainer {
+    width: 100%;
+    padding: 20px 0;
+    margin-right: 1.5%;
+} */
+
+.aboutUsSection {    
+    background-color: white;
+    margin-bottom: 1.5%;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.aside {
+    /* width: 30%; */
+    flex: 1;
+    padding: 10px;
+    background-color: hsl(212, 81%, 61%);
+    color: #FFFFFF;
+    border-radius: 6px;
+    margin-top: 20px;
+    max-width: 200px;  
+    margin-left: 170px;
+    max-height: 310px;
+  
+}
+
+.toFlexBox{
+    display: flex;
+    justify-content: space-between;    
+    width: 90%;
+}
+
+
+footer{
+   
+    max-width: 1200px;
+    /* margin: 20px auto; */
+    color: rgb(0, 0, 0);
+    background-color: #FFFFFF;
+    border-radius: 6px;     
+    margin-left: 170px;    
+    display: flex;
+    justify-content: center;
+}
